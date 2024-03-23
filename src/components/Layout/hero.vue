@@ -6,7 +6,7 @@
                     class="bg-green-300 text-green-800 text-xs font-medium me-2 px-2.5 py-0.5 mb-8 rounded dark:bg-green-900 dark:text-green-300">Web
                     App Developer</span>
                 <h1
-                    class="max-w-2xl mb-4 text-4xl font-medium tracking-tight text-white leading-none md:text-5xl xl:text-6xl dark:text-white">
+                    class="max-w-2xl my-4 text-4xl font-medium tracking-tight text-white leading-none md:text-5xl xl:text-6xl dark:text-white">
                     { Hello World! }</h1>
                 <h1
                     class="max-w-2xl mb-4 text-4xl font-medium tracking-tight text-white leading-none md:text-5xl xl:text-6xl dark:text-white">
