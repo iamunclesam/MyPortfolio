@@ -60,7 +60,7 @@ export default {
             <p class="text-gray-500 py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolorem
               porro quasi cupiditate. Harum cum veniam magnam necessitatibus fugiat vel.</p>
 
-            <p class="text-gray-500 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolorem porro
+            <p class="text-gray-500 hidden md:block text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolorem porro
               quasi cupiditate. Harum cum veniam magnam necessitatibus fugiat vel.</p>
           </div>
         </div>
@@ -71,7 +71,7 @@ export default {
       <div class="grid md:grid-cols-12">
         <div class="col-span-6 px-4">
           <div class="content">
-            <h1 class="text-right text-2xl font-light text-white">Latest Work</h1>
+            <h1 class="text-right text-2xl font-light text-white border-4 border-b-green-600">Latest Work</h1>
             <div class="grid md:grid-cols-2 my-10">
               <div class="col">
                 <img src="@/assets/img/p1.png" class="w-96" alt="mockup">
