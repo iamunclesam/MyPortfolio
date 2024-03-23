@@ -71,7 +71,7 @@ export default {
       <div class="grid md:grid-cols-12">
         <div class="col-span-6 px-4">
           <div class="content">
-            <h1 class="text-right text-2xl font-light text-white border-4 border-b-green-600">Latest Work</h1>
+            <h1 class="text-right text-3xl font-light text-green-600">Latest Work</h1>
             <div class="grid md:grid-cols-2 my-10">
               <div class="col">
                 <img src="@/assets/img/p1.png" class="w-96" alt="mockup">
