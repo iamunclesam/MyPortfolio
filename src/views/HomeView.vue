@@ -55,7 +55,7 @@ export default {
 
         <div class="col-span-6 order-1 md:order-2">
           <div class="content md:p-16 pb-8">
-            <h1 class="text-green-400 text-sm "> <Lorem, ipsum /> </h1>
+            <code class="text-green-400 text-sm "> <Lorem, ipsum /> </code>
             <h1 class="text-2xl font-light text-white">Lorem ipsum, dolor sit amet consectetur.</h1>
             <p class="text-gray-500 py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolorem
               porro quasi cupiditate. Harum cum veniam magnam necessitatibus fugiat vel.</p>
