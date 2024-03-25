@@ -10,55 +10,37 @@
                             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
                         </div>
                         
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Application UI code in Tailwind
-                            CSS</h3>
-                        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Get access to over 20+
-                            pages including a dashboard layout, charts, kanban board, calendar, and pre-order E-commerce
-                            & Marketing pages.</p>
+                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Communication and Collaboration</h3>
+                        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Strong interpersonal and communication skills, facilitating effective collaboration with cross-functional teams, stakeholders, and clients. Proven ability to convey complex technical concepts in a clear and concise manner.</p>
                     </li>
                     <li class="mb-10 ms-4">
                         <div
                             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
                         </div>
                       
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Marketing UI design in Figma
+                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Time Management and Prioritization
                         </h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and
-                            components are first designed in Figma and we keep a parity between the two versions even as
-                            we update the project.</p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Exceptional time management and organizational abilities, adept at managing multiple tasks and projects simultaneously. Skilled at setting priorities, establishing realistic timelines, and meeting project deadlines efficiently..</p>
                     </li>
                     <li class="mb-10 ms-4">
                         <div
                             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
                         </div>
                        
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Marketing UI design in Figma
+                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Problem-Solving and Critical Thinking
                         </h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and
-                            components are first designed in Figma and we keep a parity between the two versions even as
-                            we update the project.</p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Strong analytical and problem-solving skills, with a demonstrated ability to identify issues, analyze root causes, and develop innovative solutions. Proficient in applying critical thinking to troubleshoot technical challenges and optimize performance.</p>
                     </li>
                     <li class="mb-10 ms-4">
                         <div
                             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
                         </div>
                        
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Marketing UI design in Figma
+                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Continuous Learning and Adaptability
                         </h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">All of the pages and
-                            components are first designed in Figma and we keep a parity between the two versions even as
-                            we update the project.</p>
+                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Commitment to lifelong learning and professional development, staying abreast of emerging trends and technologies in frontend development. Proactive in adapting to evolving industry standards and best practices to enhance skill set and stay competitive in the field.</p>
                     </li>
-                    <li class="ms-4">
-                        <div
-                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
-                        </div>
-                      
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">E-Commerce UI code in Tailwind
-                            CSS</h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Get started with dozens of web
-                            components and interactive elements built on top of Tailwind CSS.</p>
-                    </li>
+                  
                     
                 </ol>
 
@@ -210,6 +192,10 @@
                                         d="M228 182.937a12.732 12.732 0 0 1-15.791-6.005c-9.063-13.567-19.071-26.522-28.69-39.755l-4.171-5.56c-11.454 15.346-22.908 30.08-33.361 45.371a12.23 12.23 0 0 1-15.012 5.894l42.98-57.659l-39.978-52.1a13.289 13.289 0 0 1 15.847 5.56c9.285 13.568 19.572 26.523 29.802 40.257c10.287-13.623 20.462-26.634 29.97-40.09a11.952 11.952 0 0 1 14.901-5.56l-15.513 20.573c-6.95 9.174-13.789 18.404-21.017 27.356a5.558 5.558 0 0 0 0 8.285c13.289 17.626 26.466 35.307 40.033 53.433M28 124.5c1.168-5.56 1.89-11.621 3.503-17.292c9.619-34.195 48.818-48.43 75.785-27.245c15.791 12.4 19.739 29.97 18.961 49.764H37.286c-1.446 35.363 24.075 56.714 56.713 45.816a33.864 33.864 0 0 0 21.518-23.965c1.724-5.56 4.504-6.505 9.786-4.893a45.145 45.145 0 0 1-21.573 32.972a52.263 52.263 0 0 1-60.884-7.784a54.767 54.767 0 0 1-13.678-32.138c0-1.89-.723-3.781-1.112-5.56A860.69 860.69 0 0 1 28 124.5m9.397-2.391h80.456c-.501-25.632-16.681-43.814-38.254-43.98c-24.02-.334-41.201 17.458-42.258 43.869z" />
                                 </g>
                             </svg>
+                        </div>
+
+                        <div class="nineth">
+                            <svg xmlns="http://www.w3.org/2000/svg" color="white" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linejoin="round" d="M18.38 27.94v-14.4l11.19-6.46c6.2-3.58 17.3 5.25 12.64 13.33"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m18.38 20.94l12.47-7.2l11.19 6.46c6.2 3.58 4.1 17.61-5.23 17.61"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m24.44 17.44l12.47 7.2v12.93c0 7.16-13.2 12.36-17.86 4.28"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="M30.5 21.2v14.14L19.31 41.8c-6.2 3.58-17.3-5.25-12.64-13.33"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m30.5 27.94l-12.47 7.2l-11.19-6.46c-6.21-3.59-4.11-17.61 5.22-17.61"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m24.44 31.44l-12.47-7.2V11.31c0-7.16 13.2-12.36 17.86-4.28"/></svg>
                         </div>
                     </div>
                 </div>

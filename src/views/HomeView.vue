@@ -3,11 +3,12 @@ import Hero from '@/components/Layout/hero.vue'
 import Navbar from '@/components/Layout/navbar.vue'
 import Loader from '@/components/Layout/pageLoader.vue';
 import Skills from '@/components/mySkills.vue';
+import SocialLife from '@/components/mySocialLife.vue';
 
 export default {
 
   components: {
-    Navbar, Hero, Loader, Skills
+    Navbar, Hero, Loader, Skills, SocialLife
   },
 
   data() {
@@ -99,7 +100,7 @@ export default {
     </div>
 
     <div class="projects md:px-28 px-4 my-10">
-      <h1 class="text-right md:text-center md:text-white text-3xl font-light text-green-600">Latest Work</h1>
+      <h1 class="text-right md:text-center md:text-white text-3xl font-light text-white">Latest Work</h1>
       <div class="grid md:grid-cols-12">
         <div data-aos="fade-right" class="col-span-6 px-4">
           <div class="content">
@@ -212,6 +213,13 @@ export default {
     <div class="my-skills py-20">
       <Skills />
     </div>
+
+
+    <div class="socials my-20">
+      <SocialLife />
+    </div>
+
+    
   </main>
 
 </template>
