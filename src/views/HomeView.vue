@@ -37,23 +37,22 @@ export default {
           <div class="content">
             <div data-aos="fade-up" class="box mb-2 p-6 w-74 shadow-lg">
               <div class="flex justify-between h-auto items-center">
-                <h1 class="text-green-600 font-bold">Design</h1>
+                <h1 class="text-purple-600 font-bold">Design</h1>
                 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24"
-                  class="text-green-600">
+                class="text-purple-600">
                   <path fill="currentColor"
                     d="M3 17.25V21h3.75L17.81 9.93l-3.75-3.75zm19.61 1.11l-4.25 4.25l-5.2-5.2l1.77-1.77l1 1l2.47-2.48l1.42 1.42L18.36 17l1.06 1l1.42-1.4zm-16-7.53L1.39 5.64l4.25-4.25L7.4 3.16L4.93 5.64L6 6.7l2.46-2.48l1.42 1.42l-1.42 1.41l1 1zM20.71 7c.39-.39.39-1 0-1.41l-2.34-2.3c-.37-.39-1.02-.39-1.41 0l-1.84 1.83l3.75 3.75z" />
                 </svg>
               </div>
-              <p class="text-gray-700 text-sm font-medium text-gray-500">Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit.</p>
+              <p class="text-gray-700 text-sm font-medium text-gray-500">Proeficient in modern asthethic designs</p>
             </div>
 
 
 
             <div data-aos="fade-up" class="box mb-2 p-6 w-74 shadow-lg">
               <div class="flex justify-between h-auto items-center">
-                <h1 class="text-green-600 font-bold">Front-end</h1>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="text-green-600"
+                <h1 class="text-purple-600 font-bold">Front-end</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="text-purple-600"
                   viewBox="0 0 24 24">
                   <g fill="none">
                     <path d="M0 0h24v24H0z" />
@@ -62,38 +61,43 @@ export default {
                   </g>
                 </svg>
               </div>
-              <p class="text-gray-700 text-sm font-medium text-gray-500">Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit.</p>
+              <p class="text-gray-700 text-sm font-medium text-gray-500">Proeficient in responsive applications for better user experience.</p>
             </div>
 
 
 
             <div data-aos="fade-up" class="box p-6 w-74 shadow-lg">
               <div class="flex justify-between h-auto items-center">
-                <h1 class="text-green-600 font-bold">Back-end</h1>
-                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="text-green-600"
+                <h1 class="text-purple-600 font-bold">Back-end</h1>
+                <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="text-purple-600"
                   viewBox="0 0 20 20">
                   <path id="oouiCode0" fill="currentColor"
                     d="M1 10.08V8.92h1.15c1.15 0 1.15 0 1.15-1.15V5a7.4 7.4 0 0 1 .09-1.3a2 2 0 0 1 .3-.7a1.84 1.84 0 0 1 .93-.68A6.4 6.4 0 0 1 6.74 2h1.18v1.15h-.86A1.32 1.32 0 0 0 6 3.62a1.7 1.7 0 0 0-.36 1.23V7a3.2 3.2 0 0 1-.28 1.72a2 2 0 0 1-1.26.77a2.15 2.15 0 0 1 1.26.79A3.26 3.26 0 0 1 5.62 12v3.15A1.67 1.67 0 0 0 6 16.37a1.31 1.31 0 0 0 1.08.47h.87V18H6.74a6.3 6.3 0 0 1-2.12-.29a1.82 1.82 0 0 1-.93-.71a1.9 1.9 0 0 1-.3-.72A7.5 7.5 0 0 1 3.31 15v-3.77c0-1.15 0-1.15-1.15-1.15zm18 0V8.92h-1.15c-1.15 0-1.15 0-1.15-1.15V5a7.4 7.4 0 0 0-.08-1.32a2 2 0 0 0-.3-.73a1.84 1.84 0 0 0-.93-.68A6.4 6.4 0 0 0 13.26 2h-1.18v1.15h.87a1.32 1.32 0 0 1 1.05.47a1.7 1.7 0 0 1 .36 1.23V7a3.2 3.2 0 0 0 .28 1.72a2 2 0 0 0 1.26.77a2.15 2.15 0 0 0-1.26.79a3.26 3.26 0 0 0-.26 1.72v3.15a1.67 1.67 0 0 1-.38 1.22a1.31 1.31 0 0 1-1.08.47h-.87V18h1.19a6.3 6.3 0 0 0 2.12-.29a1.82 1.82 0 0 0 .93-.68a1.9 1.9 0 0 0 .3-.72a7.5 7.5 0 0 0 .1-1.31v-3.77c0-1.15 0-1.15 1.15-1.15z" />
                   <use href="#oouiCode0" transform="matrix(-1 0 0 1 20 0)" />
                 </svg>
               </div>
-              <p class="text-gray-700 text-sm font-medium text-gray-500">Lorem ipsum, dolor sit amet consectetur
-                adipisicing elit.</p>
+              <p class="text-gray-700 text-sm font-medium text-gray-500">Proeficient in backend technologies around NodeJs.</p>
             </div>
           </div>
         </div>
 
         <div data-aos="fade-left" class="col-span-6 order-1 md:order-2">
           <div class="content md:p-16 pb-8">
-            <code class="text-green-400 text-sm "> Lorem, ipsum </code>
-            <h1 class="text-2xl font-light text-white">Lorem ipsum, dolor sit amet consectetur.</h1>
-            <p class="text-gray-500 py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id dolorem
-              porro quasi cupiditate. Harum cum veniam magnam necessitatibus fugiat vel.</p>
+            <code class="text-purple-500 text-sm "> About Unclesam </code>
+            <h1 class="text-2xl font-light text-white">Get a peek into my career journey</h1>
+            <p class="text-gray-500 py-4 text-sm">I'm Samuel Adeyemi a.k.a <span class="text-purple-600">Unclesam</span>, a web app developer with 3 years of experience. Specializing in Vue.js for frontend and Node.js with Firebase for backend, I've collaborated with startups, crafting intuitive solutions that resonate with users.</p>
 
-            <p class="text-gray-500 hidden md:block text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Id dolorem porro
-              quasi cupiditate. Harum cum veniam magnam necessitatibus fugiat vel.</p>
+            <p class="text-gray-500 hidden md:block text-sm">Innovation drives me. Let's connect to create impactful web experiences that shape the future.</p>
+
+            <a href="#"
+          class="inline-flex items-center justify-center py-3 mr-3 text-base font-medium text-center text-purple-500 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
+          let's connect
+          <svg class="w-5 h-5 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd"
+              d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+              clip-rule="evenodd"></path>
+          </svg>
+        </a>
           </div>
         </div>
       </div>
@@ -112,7 +116,7 @@ export default {
 
               <div class="col">
                 <div class="content">
-                  <div class="h1 text-green-500 text-3xl font-light">MovieFusion Movie App</div>
+                  <div class="h1 text-purple-600 text-3xl font-light">MovieFusion Movie App</div>
                   <p class="text-gray-500 font-medium py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing
                     elit. Dolorem soluta assumenda optio voluptates dolor. Eligendi odio saepe modi necessitatibus
                     blanditiis.</p>
@@ -126,7 +130,7 @@ export default {
                     </svg>
                   </div>
                   <button
-                    class="glow-neon-button bg-green-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
+                    class=" bg-purple-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
                     site</button>
                 </div>
               </div>
@@ -144,7 +148,7 @@ export default {
 
               <div class="col">
                 <div class="content">
-                  <div class="h1 text-green-500 text-3xl font-light">Shoppers E-commerce App</div>
+                  <div class="h1 text-purple-600 text-3xl font-light">Shoppers E-commerce App</div>
                   <p class="text-gray-500 font-medium py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing
                     elit. Dolorem soluta assumenda optio voluptates dolor. Eligendi odio saepe modi necessitatibus
                     blanditiis.</p>
@@ -158,7 +162,7 @@ export default {
                     </svg>
                   </div>
                   <button
-                    class="glow-neon-button bg-green-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
+                    class="bg-purple-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
                     site</button>
 
                 </div>
@@ -176,7 +180,7 @@ export default {
 
               <div class="col">
                 <div class="content">
-                  <div class="h1 text-green-500 text-3xl font-light">College Department App</div>
+                  <div class="h1 text-purple-600 text-3xl font-light">College Department App</div>
                   <p class="text-gray-500 font-medium py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing
                     elit. Dolorem soluta assumenda optio voluptates dolor. Eligendi odio saepe modi necessitatibus
                     blanditiis.</p>
@@ -190,7 +194,7 @@ export default {
                     </svg>
                   </div>
                   <button
-                    class="glow-neon-button bg-green-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
+                    class="bg-purple-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
                     site</button>
 
                 </div>
@@ -219,7 +223,7 @@ export default {
       <SocialLife />
     </div>
 
-    
+
   </main>
 
 </template>

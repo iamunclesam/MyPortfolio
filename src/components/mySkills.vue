@@ -2,7 +2,7 @@
     <main class="md:px-28 px-6">
         <h1 class="text-white text-5xl font-light text-center pb-20">My skills</h1>
         <div class="grid md:grid-cols-2 gap-8">
-            <div class="col p-6">
+            <div class="col md:p-6 ">
 
                 <ol class="relative border-s border-gray-200 dark:border-gray-700">
                     <li class="mb-10 ms-4">
@@ -31,6 +31,7 @@
                         </h3>
                         <p class="text-base font-normal text-gray-500 dark:text-gray-400">Strong analytical and problem-solving skills, with a demonstrated ability to identify issues, analyze root causes, and develop innovative solutions. Proficient in applying critical thinking to troubleshoot technical challenges and optimize performance.</p>
                     </li>
+
                     <li class="mb-10 ms-4">
                         <div
                             class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
