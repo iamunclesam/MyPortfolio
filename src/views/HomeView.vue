@@ -117,9 +117,7 @@ export default {
               <div class="col">
                 <div class="content">
                   <div class="h1 text-purple-600 text-3xl font-light">MovieFusion Movie App</div>
-                  <p class="text-gray-500 font-medium py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Dolorem soluta assumenda optio voluptates dolor. Eligendi odio saepe modi necessitatibus
-                    blanditiis.</p>
+                  <p class="text-gray-500 font-medium py-4 text-sm">Moviefuison is demo movie app built with VueJs with features like movie collections and favourites. Your contribution is appreciated!</p>
                   <div class="github mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256">
                       <g fill="none">
@@ -149,9 +147,7 @@ export default {
               <div class="col">
                 <div class="content">
                   <div class="h1 text-purple-600 text-3xl font-light">Shoppers E-commerce App</div>
-                  <p class="text-gray-500 font-medium py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing
-                    elit. Dolorem soluta assumenda optio voluptates dolor. Eligendi odio saepe modi necessitatibus
-                    blanditiis.</p>
+                  <p class="text-gray-500 font-medium py-4 text-sm">ShoppersNg is also demo ecommerce app built with VueJs and third party Api (fakestoreapi) with add to cart feature and product details page. Your contribution is appreciated</p>
                   <div class="github mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256">
                       <g fill="none">

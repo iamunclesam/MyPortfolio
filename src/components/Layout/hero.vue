@@ -3,8 +3,8 @@
     <div
       class="grid order-1 md:order-1 max-w-screen-xl md:px-28 px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div class="md:hidden md:order-2 lg:mt-0 lg:col-span-5 md:flex">
-        <img src="@/assets/img/sam.png"
-          class="w-64 mx-auto my-6 mb-10 rounded-full border glow-neon-button border-green-600" alt="mockup">
+        <img src="@/assets/img/sam-2.jpg"
+          class="w-72 h-72 object-cover mx-auto my-6 mb-10 rounded-full border border-purple-600" alt="mockup">
       </div>
       <div class="mr-auto place-self-center lg:col-span-7">
         <span
