@@ -201,8 +201,8 @@ export default {
 
         <div class="col-span-6 px-4 md:relative">
           <div class="content md:absolute bottom-20 right-20">
-            <div class="text-green-500 text-md font-light underline">VIEW ALL PROJECTS</div>
-            <p class="text-gray-500 w-32 pt-8 text-sm font-light">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="text-purple-600 text-md font-light underline">VIEW ALL PROJECTS</div>
+            <p class="text-gray-500 pt-8 text-sm font-medium">Take a visit to my github repo</p>
           </div>
         </div>
 

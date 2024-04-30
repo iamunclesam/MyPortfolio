@@ -1,60 +1,15 @@
 <template>
     <main class="md:px-28 px-6">
         <h1 class="text-white text-5xl font-light text-center pb-20">My skills</h1>
-        <div class="grid md:grid-cols-2 gap-8">
-            <div class="col md:p-6 ">
+        <div class="">
 
-                <ol class="relative border-s border-gray-200 dark:border-gray-700">
-                    <li class="mb-10 ms-4">
-                        <div
-                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
-                        </div>
-                        
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Communication and Collaboration</h3>
-                        <p class="mb-4 text-base font-normal text-gray-500 dark:text-gray-400">Strong interpersonal and communication skills, facilitating effective collaboration with cross-functional teams, stakeholders, and clients. Proven ability to convey complex technical concepts in a clear and concise manner.</p>
-                    </li>
-                    <li class="mb-10 ms-4">
-                        <div
-                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
-                        </div>
-                      
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Time Management and Prioritization
-                        </h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Exceptional time management and organizational abilities, adept at managing multiple tasks and projects simultaneously. Skilled at setting priorities, establishing realistic timelines, and meeting project deadlines efficiently..</p>
-                    </li>
-                    <li class="mb-10 ms-4">
-                        <div
-                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
-                        </div>
-                       
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Problem-Solving and Critical Thinking
-                        </h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Strong analytical and problem-solving skills, with a demonstrated ability to identify issues, analyze root causes, and develop innovative solutions. Proficient in applying critical thinking to troubleshoot technical challenges and optimize performance.</p>
-                    </li>
-
-                    <li class="mb-10 ms-4">
-                        <div
-                            class="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -start-1.5 border border-white dark:border-gray-900 dark:bg-gray-700">
-                        </div>
-                       
-                        <h3 class="text-lg font-semibold text-gray-300 dark:text-white">Continuous Learning and Adaptability
-                        </h3>
-                        <p class="text-base font-normal text-gray-500 dark:text-gray-400">Commitment to lifelong learning and professional development, staying abreast of emerging trends and technologies in frontend development. Proactive in adapting to evolving industry standards and best practices to enhance skill set and stay competitive in the field.</p>
-                    </li>
-                  
-                    
-                </ol>
-
-
-            </div>
-
-            <div class="col">
+            <div class="">
                 <div class="skills">
-                    <div class="grid grid-cols-3 gap-6">
+                    <div class="grid md:grid-cols-6 space-y-4 items-center">
 
 
-                        <div class="second" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" class=" object-cover" viewBox="0 0 256 361">
+                        <div class="" data-aos="fade-in">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-cover rounded-full p-2 border-4 border-purple-600" viewBox="0 0 256 361">
                                 <path fill="#e44d26"
                                     d="m255.555 70.766l-23.241 260.36l-104.47 28.962l-104.182-28.922L.445 70.766z" />
                                 <path fill="#f16529" d="m128 337.95l84.417-23.403l19.86-222.49H128z" />
@@ -69,7 +24,7 @@
 
 
                         <div class="third" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" class="w-18 h-18 object-cover"
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-cover rounded-full p-2 border-4 border-purple-600"
                                 viewBox="0 0 128 128">
                                 <path fill="#131313"
                                     d="M89.234 5.856H81.85l7.679 8.333v3.967H73.713v-4.645h7.678l-7.678-8.333V1.207h15.521zm-18.657 0h-7.384l7.679 8.333v3.967H55.055v-4.645h7.679l-7.679-8.333V1.207h15.522zm-18.474.19h-7.968v7.271h7.968v4.839H38.471V1.207h13.632z" />
@@ -88,7 +43,7 @@
                         </div>
 
                         <div class="fourth" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" class=" object-cover" viewBox="0 0 128 128">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28  object-cover rounded-full p-2 border-4 border-purple-600" viewBox="0 0 128 128">
                                 <path fill="#f0db4f" d="M1.408 1.408h125.184v125.185H1.408z" />
                                 <path fill="#323330"
                                     d="M116.347 96.736c-.917-5.711-4.641-10.508-15.672-14.981c-3.832-1.761-8.104-3.022-9.377-5.926c-.452-1.69-.512-2.642-.226-3.665c.821-3.32 4.784-4.355 7.925-3.403c2.023.678 3.938 2.237 5.093 4.724c5.402-3.498 5.391-3.475 9.163-5.879c-1.381-2.141-2.118-3.129-3.022-4.045c-3.249-3.629-7.676-5.498-14.756-5.355l-3.688.477c-3.534.893-6.902 2.748-8.877 5.235c-5.926 6.724-4.236 18.492 2.975 23.335c7.104 5.332 17.54 6.545 18.873 11.531c1.297 6.104-4.486 8.08-10.234 7.378c-4.236-.881-6.592-3.034-9.139-6.949c-4.688 2.713-4.688 2.713-9.508 5.485c1.143 2.499 2.344 3.63 4.26 5.795c9.068 9.198 31.76 8.746 35.83-5.176c.165-.478 1.261-3.666.38-8.581M69.462 58.943H57.753l-.048 30.272c0 6.438.333 12.34-.714 14.149c-1.713 3.558-6.152 3.117-8.175 2.427c-2.059-1.012-3.106-2.451-4.319-4.485c-.333-.584-.583-1.036-.667-1.071l-9.52 5.83c1.583 3.249 3.915 6.069 6.902 7.901c4.462 2.678 10.459 3.499 16.731 2.059c4.082-1.189 7.604-3.652 9.448-7.401c2.666-4.915 2.094-10.864 2.07-17.444c.06-10.735.001-21.468.001-32.237" />
@@ -97,7 +52,7 @@
 
 
                         <div class="first" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 221">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-cover rounded-full p-2 border-4 border-purple-600" viewBox="0 0 256 221">
                                 <path fill="#41b883" d="M204.8 0H256L128 220.8L0 0h97.92L128 51.2L157.44 0z" />
                                 <path fill="#41b883" d="m0 0l128 220.8L256 0h-51.2L128 132.48L50.56 0z" />
                                 <path fill="#35495e" d="M50.56 0L128 133.12L204.8 0h-47.36L128 51.2L97.92 0z" />
@@ -105,7 +60,7 @@
                         </div>
 
                         <div class="fifth" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 351">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-cover rounded-full p-2 border-4 border-purple-600" viewBox="0 0 256 351">
                                 <defs>
                                     <filter id="logosFirebase0" width="200%" height="200%" x="-50%" y="-50%"
                                         filterUnits="objectBoundingBox">
@@ -152,7 +107,7 @@
 
 
                         <div class="sixth" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-cover rounded-full p-2 border-4 border-purple-600" viewBox="0 0 256 256">
                                 <g fill="none">
                                     <rect width="256" height="256" fill="#242938" rx="60" />
                                     <path fill="#00d8ff"
@@ -171,7 +126,7 @@
                         </div>
 
                         <div class="seventh" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-cover rounded-full p-2 border-4 border-purple-600" viewBox="0 0 256 256">
                                 <g fill="none">
                                     <rect width="256" height="256" fill="#023430" rx="60" />
                                     <path fill="#10aa50"
@@ -186,7 +141,7 @@
 
 
                         <div class="eighth" data-aos="fade-in">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-fit rounded-full p-2 border-4 border-purple-600" viewBox="0 0 256 256">
                                 <g fill="none">
                                     <rect width="256" height="256" fill="#242938" rx="60" />
                                     <path fill="#fff"
@@ -196,7 +151,7 @@
                         </div>
 
                         <div class="nineth">
-                            <svg xmlns="http://www.w3.org/2000/svg" color="white" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linejoin="round" d="M18.38 27.94v-14.4l11.19-6.46c6.2-3.58 17.3 5.25 12.64 13.33"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m18.38 20.94l12.47-7.2l11.19 6.46c6.2 3.58 4.1 17.61-5.23 17.61"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m24.44 17.44l12.47 7.2v12.93c0 7.16-13.2 12.36-17.86 4.28"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="M30.5 21.2v14.14L19.31 41.8c-6.2 3.58-17.3-5.25-12.64-13.33"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m30.5 27.94l-12.47 7.2l-11.19-6.46c-6.21-3.59-4.11-17.61 5.22-17.61"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m24.44 31.44l-12.47-7.2V11.31c0-7.16 13.2-12.36 17.86-4.28"/></svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="w-28 h-28 object-fit rounded-full p-2 border-4 border-purple-600" color="white" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linejoin="round" d="M18.38 27.94v-14.4l11.19-6.46c6.2-3.58 17.3 5.25 12.64 13.33"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m18.38 20.94l12.47-7.2l11.19 6.46c6.2 3.58 4.1 17.61-5.23 17.61"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m24.44 17.44l12.47 7.2v12.93c0 7.16-13.2 12.36-17.86 4.28"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="M30.5 21.2v14.14L19.31 41.8c-6.2 3.58-17.3-5.25-12.64-13.33"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m30.5 27.94l-12.47 7.2l-11.19-6.46c-6.21-3.59-4.11-17.61 5.22-17.61"/><path fill="none" stroke="currentColor" stroke-linejoin="round" d="m24.44 31.44l-12.47-7.2V11.31c0-7.16 13.2-12.36 17.86-4.28"/></svg>
                         </div>
                     </div>
                 </div>
