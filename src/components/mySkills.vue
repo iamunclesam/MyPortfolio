@@ -5,7 +5,7 @@
 
             <div class="">
                 <div class="skills">
-                    <div class="grid md:grid-cols-6 space-y-4 items-center">
+                    <div class="grid grid-cols-2 md:grid-cols-6 space-y-4 items-center">
 
 
                         <div class="" data-aos="fade-in">
