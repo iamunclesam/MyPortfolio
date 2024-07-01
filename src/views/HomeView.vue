@@ -180,7 +180,7 @@ export default {
           </div>
         </div>
 
-        <div data-aos="" class="col-span-6 px-4 mt-10 overflow-hidden">
+        <div data-aos="fade-down" class="col-span-6 px-4 mt-10 overflow-hidden">
           <div class="content">
             <div
               class="block max-w-full p-6 bg-gradient-to-r from-purple-700 to-pink-800 rounded shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
