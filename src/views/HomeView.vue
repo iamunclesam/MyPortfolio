@@ -116,36 +116,80 @@ export default {
         <div data-aos="fade-up" class="col-span-6 px-4 overflow-hidden">
           <div class="content">
 
-            <a href="#"
+            <div
               class="block max-w-full p-6 bg-gradient-to-r from-purple-700 to-pink-800 rounded shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">Aura Hospital Management System</h5>
-              <p class="font-normal  text-gray-300 dark:text-gray-400">Aura HMS is a web software for an hospital that manages the day to day activities of the hospital. It was build with Vue.Js, NodeJs and Express server.</p>
-            </a>
+              <div class="">
+                <svg class="text-gray-200" xmlns="http://www.w3.org/2000/svg" width="3em" height="3em"
+                  viewBox="0 0 2048 2048">
+                  <path fill="currentColor"
+                    d="M896 768v256H640v256h256v256h256v-256h256v-256h-256V768zm384 128h256v512h-256v256H768v-256H512V896h256V640h512zm576-512q40 0 75 15t61 41t41 61t15 75v1152q0 40-15 75t-41 61t-61 41t-75 15H192q-40 0-75-15t-61-41t-41-61t-15-75V576q0-40 15-75t41-61t61-41t75-15h320q0-37-1-82t9-83t37-65t83-26h768q37 0 61 12t38 32t20 46t9 55t1 57t-1 54zm-1216 0h768V256H640zm1280 192q0-26-19-45t-45-19H192q-26 0-45 19t-19 45v1152q0 26 19 45t45 19h1664q26 0 45-19t19-45z" />
+                </svg>
+
+                <h5 class=" mb-2 text-2xl font-bold tracking-tight text-gray-200 dark:text-white">
+                  Aura Hospital Management System</h5>
+              </div>
+              <p class="font-normal  text-gray-300 dark:text-gray-400">Aura HMS is a web software for an hospital that
+                manages the day to day activities of the hospital. It was build with Vue.Js, NodeJs and Express server.
+              </p>
+              <a href="#" class="inline-flex pt-4 font-medium items-center text-gray-400 hover:underline">
+                visit project
+                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                </svg>
+              </a>
+            </div>
 
           </div>
         </div>
 
         <div data-aos="fade-up" class="col-span-6 px-4 mt-10 md:mt-0 overflow-hidden">
           <div class="content">
-            <a href="#"
+
+            <div
               class="block max-w-full p-6 bg-gradient-to-r from-purple-700 to-pink-800 rounded shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">The MovieFusion Movie App</h5>
-              <p class="font-normal text-gray-300 dark:text-gray-400">Moviefusion is a movie web application built with Vue.js and Firebase technologies. It has features like collections, movie cast, watch providers and youtube trailers.</p>
-            </a>
+              <svg class="text-gray-200" xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 24 24">
+                <g fill="none">
+                  <path
+                    d="M24 0v24H0V0zM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.019-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                  <path fill="currentColor"
+                    d="M12 2c5.523 0 10 4.477 10 10a9.98 9.98 0 0 1-3.76 7.814l-.239.186H20a1 1 0 0 1 .117 1.993L20 22h-8C6.477 22 2 17.523 2 12S6.477 2 12 2m0 2a8 8 0 1 0 0 16a8 8 0 0 0 0-16m0 10a2 2 0 1 1 0 4a2 2 0 0 1 0-4m-4-4a2 2 0 1 1 0 4a2 2 0 0 1 0-4m8 0a2 2 0 1 1 0 4a2 2 0 0 1 0-4m-4-4a2 2 0 1 1 0 4a2 2 0 0 1 0-4" />
+                </g>
+              </svg>
+
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">The MovieFusion Movie App
+              </h5>
+              <p class="font-normal text-gray-300 dark:text-gray-400">Moviefusion is a movie web application built with
+                Vue.js and Firebase technologies. It has features like collections, movie cast, watch providers and
+                youtube trailers.</p>
+
+              <a href="#" class="inline-flex pt-4 font-medium items-center text-gray-400 hover:underline">
+                visit project
+                <svg class="w-3 h-3 ms-2.5 rtl:rotate-[270deg]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                  fill="none" viewBox="0 0 18 18">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M15 11v4.833A1.166 1.166 0 0 1 13.833 17H2.167A1.167 1.167 0 0 1 1 15.833V4.167A1.166 1.166 0 0 1 2.167 3h4.618m4.447-2H17v5.768M9.111 8.889l7.778-7.778" />
+                </svg>
+              </a>
+            </div>
 
           </div>
         </div>
 
-        <div data-aos="fade-up" class="col-span-6 px-4 mt-10 overflow-hidden">
+        <div data-aos="" class="col-span-6 px-4 mt-10 overflow-hidden">
           <div class="content">
-            <a href="#"
+            <div
               class="block max-w-full p-6 bg-gradient-to-r from-purple-700 to-pink-800 rounded shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+              <svg class="text-gray-200" xmlns="http://www.w3.org/2000/svg" width="3em" height="3em" viewBox="0 0 32 32"><path fill="currentColor" d="M29.02 11.754L8.416 9.474L7.16 4.715a.758.758 0 0 0-.727-.558H3.34a1.214 1.214 0 0 0-.963-.49a1.24 1.24 0 1 0 0 2.483c.4 0 .738-.2.965-.492h2.512l5.23 19.8a3.282 3.282 0 0 0-.89 2.242a3.29 3.29 0 0 0 3.292 3.293a3.296 3.296 0 0 0 3.297-3.293a3.19 3.19 0 0 0-.093-.743h5.533a3.25 3.25 0 0 0-.092.743c0 1.82 1.476 3.293 3.296 3.293S28.72 29.52 28.72 27.7a3.296 3.296 0 0 0-3.294-3.297c-.95 0-1.8.41-2.402 1.053h-7.136a3.276 3.276 0 0 0-2.402-1.053c-.38 0-.738.078-1.077.196l-.182-.686H26.81a2.5 2.5 0 0 0 2.39-1.96l1.575-7.798a2.17 2.17 0 0 0 .04-.414a1.995 1.995 0 0 0-1.795-1.988zm-3.592 16.24a.298.298 0 0 1-.297-.295c.003-.166.135-.298.298-.298s.295.132.297.297a.298.298 0 0 1-.297.294zm1.78-7.495l.948-.95l-.318 1.58zm-14.453-9.037L13.79 12.5l-1.29 1.29l-1.293-1.29l1.087-1.088zm4.498.498l.538.54l-1.29 1.29l-1.293-1.29l.688-.69l1.358.15zM9.63 14.076l.87-.868l1.29 1.292l-1.29 1.29l-.565-.563l-.304-1.152zm-.295-1.12l-.328-1.24l.785.785zM21.79 16.5l-1.29 1.29l-1.293-1.29l1.292-1.293zm-.583-2l1.292-1.292l1.29 1.292l-1.29 1.292zM18.5 15.79l-1.293-1.29l1.292-1.293l1.29 1.292zm-.71.71l-1.29 1.29l-1.292-1.29l1.292-1.293zm-3.29-.71l-1.293-1.29l1.292-1.293l1.29 1.292zm-.71.71l-1.29 1.29l-1.293-1.29l1.292-1.293zm-3.29.707l1.29 1.292l-.784.783l-.54-2.044l.033-.033zm.802 3.197l1.197-1.197l1.29 1.292l-1.29 1.29l-1.13-1.13zm1.906-1.905l1.29-1.293l1.293 1.292l-1.29 1.29l-1.292-1.29zm3.292.707l1.292 1.292l-1.292 1.29l-1.292-1.29zm.708-.708l1.292-1.293l1.29 1.292l-1.29 1.29zm3.29.707l1.293 1.292l-1.29 1.29l-1.292-1.292zm.71-.708l1.29-1.293l1.293 1.292l-1.29 1.29zm2-2l1.29-1.293l1.293 1.292l-1.29 1.29zm2-2l1.29-1.293L27.79 14.5l-1.29 1.292l-1.293-1.293zm-.71-.708l-1.155-1.156l2.082.23zM21.792 12.5l-1.29 1.292l-1.293-1.292l.29-.29l2.253.25zm-7.29-.71l-.152-.15l.273.03l-.12.12zm-4 .002l-.65-.65l1.17.13zm4 9.415l1.205 1.205h-2.41zm4 0l1.205 1.206h-2.412zm4 0l1.207 1.207h-2.414zm.707-.708l1.292-1.293l1.29 1.292l-1.29 1.29zm2-2l1.292-1.292l1.29 1.29l-1.29 1.293l-1.293-1.29zm3.292-.71l-1.292-1.29l1.29-1.292l.445.444l-.43 2.124l-.014.015zm.5-4.5l-.5.5l-.66-.657l1.017.112c.054.008.1.026.144.044zM13.488 27.993a.297.297 0 0 1 0-.593a.296.296 0 0 1 0 .591zm13.323-5.58h-1.517l1.207-1.207l.93.93c-.187.17-.423.29-.62.277"/></svg>
 
-              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">ShoppersNg Ecommerce App</h5>
-              <p class="font-normal text-gray-300 dark:text-gray-400">ShopppersNg is an Ecommerce web application built with VueJs and fakestore api. It has store and add to cart feature.</p>
-            </a>
+              <h5 class="mb-2 text-2xl font-bold tracking-tight text-white dark:text-white">ShoppersNg Ecommerce App
+              </h5>
+              <p class="font-normal text-gray-300 dark:text-gray-400">ShopppersNg is an Ecommerce web application built
+                with VueJs and fakestore api. It has store and add to cart feature.</p>
+              </div>
 
           </div>
         </div>
