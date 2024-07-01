@@ -1,5 +1,5 @@
 <template>
-    <main class="md:px-28 px-4">
+    <main class="md:px-28 px-4 hidden">
 
         <h1 class="text-white text-5xl font-light text-center pb-20">My Social Life</h1>
 

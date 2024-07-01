@@ -31,7 +31,7 @@ export default {
 
 
 
-    <div class="about px-4 md:px-28 my-10">
+    <div class="about px-4 md:px-28 my-16">
       <div class="grid md:grid-cols-12">
         <div class="col-span-6 order-2 md:order-1 px-auto md:p-8">
           <div class="content">
@@ -82,12 +82,12 @@ export default {
         </div>
 
         <div data-aos="fade-left" class="col-span-6 order-1 md:order-2">
-          <div class="content md:p-16 pb-8">
-            <code class="text-purple-500 text-sm "> About Unclesam </code>
-            <h1 class="text-2xl font-light text-white">Get a peek into my career journey</h1>
-            <p class="text-gray-500 py-4 text-sm">I'm Samuel Adeyemi a.k.a <span class="text-purple-600">Unclesam</span>, a web app developer with 3 years of experience. Specializing in Vue.js for frontend and Node.js with Firebase for backend, I've collaborated with startups, crafting intuitive solutions that resonate with users.</p>
+          <div class="content md:p-16 md:pt-0 pb-8">
+            <code class="text-purple-500 text-sm "> About Samuel </code>
+            <h1 class="text-6xl font-semibold text-white">Who am i?</h1>
+            <p class="text-gray-500 py-4 text-sm">I am a web developer specializing in React and Node.js, with over 3 years of experience in software development. I excel in creating robust and scalable web applications that enhance user experiences. Passionate about leveraging emerging technologies to drive innovation in the industry, I am committed to staying at the forefront of web development trends and best practices.</p>
 
-            <p class="text-gray-500 hidden md:block text-sm">Innovation drives me. Let's connect to create impactful web experiences that shape the future.</p>
+            <p class="text-gray-500  text-sm">Innovation drives me. Let's connect to create impactful web experiences that shape the future.</p>
 
             <a href="#"
           class="inline-flex items-center justify-center py-3 mr-3 text-base font-medium text-center text-purple-500 rounded-lg bg-primary-700 hover:bg-primary-800 focus:ring-4 focus:ring-primary-300 dark:focus:ring-primary-900">
@@ -104,21 +104,20 @@ export default {
     </div>
 
     <div class="projects md:px-28 px-4 my-10">
-      <h1 class="text-right md:text-center md:text-white text-3xl font-light text-white">Latest Work</h1>
-      <div class="grid md:grid-cols-12">
+      <h1 class="text-center h-20 text-6xl font-semibold bg-gradient-to-r from-purple-700 to-pink-800 bg-clip-text text-transparent ">My Projects</h1>
+      <div class="grid md:grid-cols-12 my-16">
         <div data-aos="fade-right" class="col-span-6 px-4">
           <div class="content">
-
-            <div class="grid md:grid-cols-2 my-10">
+            <div class="grid md:grid-cols-2">
               <div class="col">
-                <img src="@/assets/img/p1.png" class="w-96" alt="mockup">
+                <img src="@/assets/img/p2.png" class="md:w-96 w-full" alt="mockup">
               </div>
 
               <div class="col">
-                <div class="content">
+                <div class="content text-center md:text-left">
                   <div class="h1 text-purple-600 text-3xl font-light">MovieFusion Movie App</div>
                   <p class="text-gray-500 font-medium py-4 text-sm">Moviefuison is demo movie app built with VueJs with features like movie collections and favourites. Your contribution is appreciated!</p>
-                  <div class="github mb-6">
+                  <!-- <div class="github mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256">
                       <g fill="none">
                         <rect width="256" height="256" fill="#242938" rx="60" />
@@ -126,29 +125,27 @@ export default {
                           d="M128.001 30C72.779 30 28 74.77 28 130.001c0 44.183 28.653 81.667 68.387 94.89c4.997.926 6.832-2.169 6.832-4.81c0-2.385-.093-10.262-.136-18.618c-27.82 6.049-33.69-11.799-33.69-11.799c-4.55-11.559-11.104-14.632-11.104-14.632c-9.073-6.207.684-6.079.684-6.079c10.042.705 15.33 10.305 15.33 10.305c8.919 15.288 23.394 10.868 29.1 8.313c.898-6.464 3.489-10.875 6.349-13.372c-22.211-2.529-45.56-11.104-45.56-49.421c0-10.918 3.906-19.839 10.303-26.842c-1.039-2.519-4.462-12.69.968-26.464c0 0 8.398-2.687 27.508 10.25c7.977-2.215 16.531-3.326 25.03-3.364c8.498.038 17.06 1.149 25.051 3.365c19.087-12.939 27.473-10.25 27.473-10.25c5.443 13.773 2.019 23.945.98 26.463c6.412 7.003 10.292 15.924 10.292 26.842c0 38.409-23.394 46.866-45.662 49.341c3.587 3.104 6.783 9.189 6.783 18.519c0 13.38-.116 24.149-.116 27.443c0 2.661 1.8 5.779 6.869 4.797C199.383 211.64 228 174.169 228 130.001C228 74.771 183.227 30 128.001 30M65.454 172.453c-.22.497-1.002.646-1.714.305c-.726-.326-1.133-1.004-.898-1.502c.215-.512.999-.654 1.722-.311c.727.326 1.141 1.01.89 1.508m4.919 4.389c-.477.443-1.41.237-2.042-.462c-.654-.697-.777-1.629-.293-2.078c.491-.442 1.396-.235 2.051.462c.654.706.782 1.631.284 2.078m3.374 5.616c-.613.426-1.615.027-2.234-.863c-.613-.889-.613-1.955.013-2.383c.621-.427 1.608-.043 2.236.84c.611.904.611 1.971-.015 2.406m5.707 6.504c-.548.604-1.715.442-2.57-.383c-.874-.806-1.118-1.95-.568-2.555c.555-.606 1.729-.435 2.59.383c.868.804 1.133 1.957.548 2.555m7.376 2.195c-.242.784-1.366 1.14-2.499.807c-1.13-.343-1.871-1.26-1.642-2.052c.235-.788 1.364-1.159 2.505-.803c1.13.341 1.871 1.252 1.636 2.048m8.394.932c.028.824-.932 1.508-2.121 1.523c-1.196.027-2.163-.641-2.176-1.452c0-.833.939-1.51 2.134-1.53c1.19-.023 2.163.639 2.163 1.459m8.246-.316c.143.804-.683 1.631-1.864 1.851c-1.161.212-2.236-.285-2.383-1.083c-.144-.825.697-1.651 1.856-1.865c1.183-.205 2.241.279 2.391 1.097" />
                       </g>
                     </svg>
-                  </div>
-                  <button
-                    class=" bg-purple-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
-                    site</button>
+                  </div> -->
+                  <a href="https://movie-fusion.vercel.app"
+                    class="tracking-wide bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-normal py-2 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit</a>
                 </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div data-aos="fade-left" class="col-span-6 px-4">
-          <div class="content md:mt-64">
-
-            <div class="grid md:grid-cols-2 my-10">
+        <div data-aos="fade-left" class="col-span-6 px-4 mt-10 md:mt-0">
+          <div class="content">
+            <div class="grid md:grid-cols-2">
               <div class="col">
                 <img src="@/assets/img/p2.png" class="w-96" alt="mockup">
               </div>
 
               <div class="col">
-                <div class="content">
+                <div class="content text-center md:text-left">
                   <div class="h1 text-purple-600 text-3xl font-light">Shoppers E-commerce App</div>
                   <p class="text-gray-500 font-medium py-4 text-sm">ShoppersNg is also demo ecommerce app built with VueJs and third party Api (fakestoreapi) with add to cart feature and product details page. Your contribution is appreciated</p>
-                  <div class="github mb-6">
+                  <!-- <div class="github mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256">
                       <g fill="none">
                         <rect width="256" height="256" fill="#242938" rx="60" />
@@ -156,10 +153,9 @@ export default {
                           d="M128.001 30C72.779 30 28 74.77 28 130.001c0 44.183 28.653 81.667 68.387 94.89c4.997.926 6.832-2.169 6.832-4.81c0-2.385-.093-10.262-.136-18.618c-27.82 6.049-33.69-11.799-33.69-11.799c-4.55-11.559-11.104-14.632-11.104-14.632c-9.073-6.207.684-6.079.684-6.079c10.042.705 15.33 10.305 15.33 10.305c8.919 15.288 23.394 10.868 29.1 8.313c.898-6.464 3.489-10.875 6.349-13.372c-22.211-2.529-45.56-11.104-45.56-49.421c0-10.918 3.906-19.839 10.303-26.842c-1.039-2.519-4.462-12.69.968-26.464c0 0 8.398-2.687 27.508 10.25c7.977-2.215 16.531-3.326 25.03-3.364c8.498.038 17.06 1.149 25.051 3.365c19.087-12.939 27.473-10.25 27.473-10.25c5.443 13.773 2.019 23.945.98 26.463c6.412 7.003 10.292 15.924 10.292 26.842c0 38.409-23.394 46.866-45.662 49.341c3.587 3.104 6.783 9.189 6.783 18.519c0 13.38-.116 24.149-.116 27.443c0 2.661 1.8 5.779 6.869 4.797C199.383 211.64 228 174.169 228 130.001C228 74.771 183.227 30 128.001 30M65.454 172.453c-.22.497-1.002.646-1.714.305c-.726-.326-1.133-1.004-.898-1.502c.215-.512.999-.654 1.722-.311c.727.326 1.141 1.01.89 1.508m4.919 4.389c-.477.443-1.41.237-2.042-.462c-.654-.697-.777-1.629-.293-2.078c.491-.442 1.396-.235 2.051.462c.654.706.782 1.631.284 2.078m3.374 5.616c-.613.426-1.615.027-2.234-.863c-.613-.889-.613-1.955.013-2.383c.621-.427 1.608-.043 2.236.84c.611.904.611 1.971-.015 2.406m5.707 6.504c-.548.604-1.715.442-2.57-.383c-.874-.806-1.118-1.95-.568-2.555c.555-.606 1.729-.435 2.59.383c.868.804 1.133 1.957.548 2.555m7.376 2.195c-.242.784-1.366 1.14-2.499.807c-1.13-.343-1.871-1.26-1.642-2.052c.235-.788 1.364-1.159 2.505-.803c1.13.341 1.871 1.252 1.636 2.048m8.394.932c.028.824-.932 1.508-2.121 1.523c-1.196.027-2.163-.641-2.176-1.452c0-.833.939-1.51 2.134-1.53c1.19-.023 2.163.639 2.163 1.459m8.246-.316c.143.804-.683 1.631-1.864 1.851c-1.161.212-2.236-.285-2.383-1.083c-.144-.825.697-1.651 1.856-1.865c1.183-.205 2.241.279 2.391 1.097" />
                       </g>
                     </svg>
-                  </div>
-                  <button
-                    class="bg-purple-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
-                    site</button>
+                  </div> -->
+                  <a href="https://movie-fusion.vercel.app"
+                  class="tracking-wide bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-normal py-2 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit</a>
 
                 </div>
               </div>
@@ -167,20 +163,20 @@ export default {
           </div>
         </div>
 
-        <div data-aos="fade-right" class="col-span-6 px-4">
+        <div data-aos="fade-right" class="col-span-6 px-4 mt-10">
           <div class="content">
-            <div class="grid md:grid-cols-2 my-10">
+            <div class="grid md:grid-cols-2">
               <div class="col">
                 <img src="@/assets/img/p3.png" class="w-96" alt="mockup">
               </div>
 
               <div class="col">
-                <div class="content">
+                <div class="content text-center md:text-left">
                   <div class="h1 text-purple-600 text-3xl font-light">College Department App</div>
                   <p class="text-gray-500 font-medium py-4 text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing
                     elit. Dolorem soluta assumenda optio voluptates dolor. Eligendi odio saepe modi necessitatibus
                     blanditiis.</p>
-                  <div class="github mb-6">
+                  <!-- <div class="github mb-6">
                     <svg xmlns="http://www.w3.org/2000/svg" width="2em" height="2em" viewBox="0 0 256 256">
                       <g fill="none">
                         <rect width="256" height="256" fill="#242938" rx="60" />
@@ -188,10 +184,9 @@ export default {
                           d="M128.001 30C72.779 30 28 74.77 28 130.001c0 44.183 28.653 81.667 68.387 94.89c4.997.926 6.832-2.169 6.832-4.81c0-2.385-.093-10.262-.136-18.618c-27.82 6.049-33.69-11.799-33.69-11.799c-4.55-11.559-11.104-14.632-11.104-14.632c-9.073-6.207.684-6.079.684-6.079c10.042.705 15.33 10.305 15.33 10.305c8.919 15.288 23.394 10.868 29.1 8.313c.898-6.464 3.489-10.875 6.349-13.372c-22.211-2.529-45.56-11.104-45.56-49.421c0-10.918 3.906-19.839 10.303-26.842c-1.039-2.519-4.462-12.69.968-26.464c0 0 8.398-2.687 27.508 10.25c7.977-2.215 16.531-3.326 25.03-3.364c8.498.038 17.06 1.149 25.051 3.365c19.087-12.939 27.473-10.25 27.473-10.25c5.443 13.773 2.019 23.945.98 26.463c6.412 7.003 10.292 15.924 10.292 26.842c0 38.409-23.394 46.866-45.662 49.341c3.587 3.104 6.783 9.189 6.783 18.519c0 13.38-.116 24.149-.116 27.443c0 2.661 1.8 5.779 6.869 4.797C199.383 211.64 228 174.169 228 130.001C228 74.771 183.227 30 128.001 30M65.454 172.453c-.22.497-1.002.646-1.714.305c-.726-.326-1.133-1.004-.898-1.502c.215-.512.999-.654 1.722-.311c.727.326 1.141 1.01.89 1.508m4.919 4.389c-.477.443-1.41.237-2.042-.462c-.654-.697-.777-1.629-.293-2.078c.491-.442 1.396-.235 2.051.462c.654.706.782 1.631.284 2.078m3.374 5.616c-.613.426-1.615.027-2.234-.863c-.613-.889-.613-1.955.013-2.383c.621-.427 1.608-.043 2.236.84c.611.904.611 1.971-.015 2.406m5.707 6.504c-.548.604-1.715.442-2.57-.383c-.874-.806-1.118-1.95-.568-2.555c.555-.606 1.729-.435 2.59.383c.868.804 1.133 1.957.548 2.555m7.376 2.195c-.242.784-1.366 1.14-2.499.807c-1.13-.343-1.871-1.26-1.642-2.052c.235-.788 1.364-1.159 2.505-.803c1.13.341 1.871 1.252 1.636 2.048m8.394.932c.028.824-.932 1.508-2.121 1.523c-1.196.027-2.163-.641-2.176-1.452c0-.833.939-1.51 2.134-1.53c1.19-.023 2.163.639 2.163 1.459m8.246-.316c.143.804-.683 1.631-1.864 1.851c-1.161.212-2.236-.285-2.383-1.083c-.144-.825.697-1.651 1.856-1.865c1.183-.205 2.241.279 2.391 1.097" />
                       </g>
                     </svg>
-                  </div>
-                  <button
-                    class="bg-purple-700 text-white font-light py-1.5 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit
-                    site</button>
+                  </div> -->
+                  <a href="https://movie-fusion.vercel.app"
+                  class="tracking-wide bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-normal py-2 text-sm px-4 rounded-md shadow-md hover:shadow-lg">Visit</a>
 
                 </div>
               </div>
@@ -199,7 +194,7 @@ export default {
           </div>
         </div>
 
-        <div class="col-span-6 px-4 md:relative">
+        <div class="col-span-6 px-4 md:relative mt-10 md:mt-0">
           <div class="content md:absolute bottom-20 right-20">
             <div class="text-purple-600 text-md font-light underline">VIEW ALL PROJECTS</div>
             <p class="text-gray-500 pt-8 text-sm font-medium">Take a visit to my github repo</p>
@@ -209,7 +204,7 @@ export default {
 
       </div>
     </div>
-
+<!-- 
     <div class="my-skills py-20">
       <Skills />
     </div>
@@ -217,7 +212,7 @@ export default {
 
     <div class="socials my-20">
       <SocialLife />
-    </div>
+    </div> -->
 
 
   </main>
